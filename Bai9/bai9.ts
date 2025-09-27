@@ -150,12 +150,18 @@ function processPayment(totalAmount: number, method: string, amountGiven: number
 
 }
 
-customerOrder.items.push({name: storeMenu[1]!.name, price: storeMenu[1]!.price}
+const selectedItem1 = storeMenu[1];
+const selectedItem2 = storeMenu[2]
+
+if(selectedItem1){
+    customerOrder.items.push({name: selectedItem1.name, price: selectedItem1.price})
+}
     
-)
+if(selectedItem2){
+    customerOrder.items.push({name: selectedItem2.name, price: selectedItem2.price})
 
+}
 
-customerOrder.items.push({name: storeMenu[2]!.name, price: storeMenu[2]!.price})
 
 const totalAmount = calculateOrderTotal(customerOrder)
 
