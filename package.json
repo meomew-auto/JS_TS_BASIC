@@ -1,0 +1,29 @@
+{
+  "name": "js_ts_basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meomew-auto/JS_TS_BASIC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meomew-auto/JS_TS_BASIC/issues"
+  },
+  "homepage": "https://github.com/meomew-auto/JS_TS_BASIC#readme",
+  "dependencies": {
+    "@types/node": "^24.6.2",
+    "@types/xlsx": "^0.0.35",
+    "xlsx": "^0.18.5"
+  }
+}
