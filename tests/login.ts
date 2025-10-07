@@ -1,5 +1,5 @@
-import { DataReader } from "../services/DataReader.ts";
-import { LoginPage } from "../pages/LoginPage.ts";
+import { DataReader } from "../services/DataReader.js";
+import { LoginPage } from "../pages/LoginPage.js";
 import type { ILoginData } from "../types/login-data.js";
 
 async function runLoginTest(){
